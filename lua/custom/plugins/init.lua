@@ -2,4 +2,15 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
+
+  -- Super fast buffer jump
+  {
+    "smoka7/hop.nvim",
+    event = "VeryLazy",
+    config = function()
+      require("custom.config.nvim_hop")
+    end,
+  },
+  }
