@@ -12,8 +12,8 @@
 require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
-  'boput/vim-po',
-  'tpope/vim-scriptease',
+  -- 'boput/vim-po',
+  -- 'tpope/vim-scriptease',
 
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
@@ -45,8 +45,8 @@ require('lazy').setup({
 
   require 'kickstart/plugins/treesitter',
 
-    -- NOTE: Next step on your Neovim journey: Add/Configure additional plugins for Kickstart
-    --  Here are some example plugins that I've included in the Kickstart repository.
+  -- NOTE: Next step on your Neovim journey: Add/Configure additional plugins for Kickstart
+  --  Here are some example plugins that I've included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
   require 'kickstart.plugins.debug',
